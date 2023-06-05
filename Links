@@ -1,0 +1,53 @@
+Search Advertising
+
+https://data.library.virginia.edu/interpreting-log-transformations-in-a-linear-model/
+http://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/
+
+
+Display Adverstising
+https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/monetisation-strategies/a-revolution-in-measuring-ad-effectiveness/
+https://www.youtube.com/watch?v=_do6ACKKlnw
+https://www.disruptordaily.com/the-history-of-programmatic-advertising-everything-you-need-to-know/
+https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/
+https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/monetisation-strategies/a-revolution-in-measuring-ad-effectiveness/
+
+Shapley Scores
+
+https://christophm.github.io/interpretable-ml-book/shapley.html
+
+Attribution Assignment
+
+First Interaction Model –
+
+ 
+
+1. relative value of the three channels:
+
+Email: 50% (5 customers through first interaction from emails)
+
+Display: 40% (4 customers through first interaction from display)
+
+Search: 10% (1 customer through first interaction from search)
+
+Linear Model –
+
+Email: 28.33% 
+
+Display: 43.33%
+
+Search: 28.33%
+
+2.
+
+In general, linear model is the most fit because it tells you what channels are responsible  for the customer swaying in any of these points in the online journey of shopping. However it’s more dependent on the goal of the company: if the company wants to know which channel was the last channel that impacted buying, it could look at interaction model.But if it wants to understand which the first channel, then first interaction model would be a good one to look at.
+
+An additional method could have been using a combination of a logistic regression and a
+few set parameters. The ratio of the coefficient of significant parameters (emails, displays,
+searches) would make up the for the ratio of investing for 70% of the budget while 10%
+minimum investment for each of them to make sure we don’t rule out an avenue.
+
+3.No it wont. We will need more data on factors that affect purchase to assess. We can try unsupervised learning for customer segmentation and accordingly make our decision.
+
+4. Avg purchase:
+
+5.43%
